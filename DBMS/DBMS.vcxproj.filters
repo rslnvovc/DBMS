@@ -13,5 +13,84 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\storage">
+      <UniqueIdentifier>{e50852e7-b9e2-4f9d-88d9-1e6fac343dc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\storage">
+      <UniqueIdentifier>{13174385-cfe9-404a-b739-557eee81438e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\execution_planner">
+      <UniqueIdentifier>{731c4f8b-212d-42cd-ad81-322033848272}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\execution_planner">
+      <UniqueIdentifier>{7b5fa4c8-bf56-4f73-8873-0499038d9083}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\concurrency">
+      <UniqueIdentifier>{46a1afb9-8022-4939-9dda-fa796ff7b44a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\concurrency">
+      <UniqueIdentifier>{058ab81d-95d7-4e48-989e-f34446408e6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\optimizer">
+      <UniqueIdentifier>{ab52f01e-78b3-4da1-90ab-a5b6b58d372c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\optimizer">
+      <UniqueIdentifier>{7301e9a0-dfa2-4862-829c-afde9f642894}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\shared">
+      <UniqueIdentifier>{08ed87a9-995d-433c-be83-8bba645241c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\shared">
+      <UniqueIdentifier>{87c5f569-e576-44ae-833d-a5a237b99ec7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\shared\memory">
+      <UniqueIdentifier>{4f1f97d3-78ce-41d5-a9b7-73f26d68e433}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\shared\memory">
+      <UniqueIdentifier>{d00370d3-842b-424c-9626-b70be6e6bbcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\shared\error_handling">
+      <UniqueIdentifier>{89081f6c-7d0b-43d0-8639-0557a511324c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\shared\error_handling">
+      <UniqueIdentifier>{0cb491a1-3523-4e38-9c69-5320b391718e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\storage\disk">
+      <UniqueIdentifier>{f194ab29-82f8-4893-87a4-eaa8f813b7cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\storage\buffer">
+      <UniqueIdentifier>{7b0a3184-b3cd-4d62-b890-195e18d346ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\types">
+      <UniqueIdentifier>{4c185ede-15ac-45ec-bc4b-636d66484068}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\types">
+      <UniqueIdentifier>{9eb7f7e1-30ef-43ed-9374-00c756e54cb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\shared\logging">
+      <UniqueIdentifier>{3a3cd353-5fdf-4132-844b-d744683a6c6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\storage\disk">
+      <UniqueIdentifier>{4f4deb22-7673-41b0-880e-375968013ef2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\storage\buffer">
+      <UniqueIdentifier>{b7cd53ad-470d-4833-be3d-b6d3e1d1f52c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SmartPointersWrapper.hpp">
+      <Filter>Header Files\shared\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="DiskManager.h">
+      <Filter>Header Files\storage\disk</Filter>
+    </ClInclude>
+    <ClInclude Include="Type.hpp">
+      <Filter>Header Files\types</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DiskManager.cpp">
+      <Filter>Source Files\storage\disk</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
